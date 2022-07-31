@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Cedarville+Cursive&family=PT+Serif&family=Playfair+Display:ital,wght@1,600&display=swap');
+/* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.top{
+    position: relative;
+}
+/* ::-moz-scrollbar{
+    width: 1vw;
+}
+::-moz-scrollbar-track{
+    background-color: aqua;
+}
+::-moz-scrollbar-thumb{
+    background-color: black;
+    height: 2vh;
+    width: 2vw;
+} */
+
+.nav{
+    height: 13vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav::before{
+    content: " ";
+background: black;
+height: 100%;
+width: 100vw;
+opacity: 0.1;
+z-index: -1;
+position: absolute;
+}
+
+
+
+
+/* FOR THE LOGO IMAGE */
+.nav .logo img{
+    height: 12vh;
+    width: 7vw;
+    opacity: 1;
+}
+
+/* THE NAVIGATION OPTIONS PART  */
+.nav header ul{
+    height: 13vh;
+    /* margin: 0vh 55vh; */
+    width: 87vw;
+    /* z-index: -2; */
+    
+    
+}
+.nav header ul li {
+    list-style: none;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.3rem;
+    margin: 0vh 1vw;
+    padding: 0vw 1vw;
+    width: 7vw;
+text-align: center;
+    
+}
+#aboutus{
+    width: 8vw;
+}
+.nav header ul li a{
+    display: block;
+    margin: 0px 8px;
+    /* padding: 0px 3vw; */
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.nav header  ul li:hover {
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 76px;
+    border-spacing: 1vw;
+    /* width: 8vw; */
+}
+
+
+/* NOW THE INTRO PART  */
+.intro{
+    height: 35vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 4vh;
+
+}
+.parah{
+
+    font-family: 'PT Serif', serif;
+font-size: 1rem;
+font-weight: 500;
+}
+.top::before{
+    content: "";
+    background: url(/FOOD_IMAGES/BG_4.jpg) no-repeat center center/cover ;
+    position: absolute;
+    /* bottom: vh; */
+    /* top: 1vh; */
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+    
+
+}
+.button{
+    margin: -11px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 44px;
+    background: black;
+    color: white;
+    width: 27vw;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+.button:hover{
+    /* background-color: white;
+    color: black; */
+    /* font-size: 1.3rem; */
+    
+    width: 29vw;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* THIS IS THE CARDS SECTION  */
+.cards{
+    /* width: 100vw; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    height: 52vh;
+}
+.commoncard{
+    margin: 0.5vh 3vw;
+width: 27vw;
+height: 44vh;
+color: white;
+/* background-color: darkgray;
+border: 1px solid darkgray; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+}
+.commoncard::before{
+    content: "";
+    width: 27vw;
+    height: 44vh;
+    opacity: 0.6;
+    border-radius: 13px;
+    position: absolute;
+    background: black;
+    /* border: 1px solid darkgray; */
+}
+.commoncard:hover{
+    opacity: 1;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+}
+.commoncard img{
+    height: 18vh;
+    width: 12.5vw;
+position: relative;
+bottom: 3vh;
+}
+
+
+
+
+
+
+
+
+/* THIS IS THE CLIENTS SECTION */
+.client{
+    width: auto;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.client img{
+    height: 15vh;
+width: 17vw;
+margin: 0px 3vw;
+}
+#appleimage{
+    height: 20vh;
+    width: 9vw;
+  }
+#lemeridien{
+    height: 5vh;
+    width: 15vw;
+}
+
+
+.client img:hover{
+    opacity: 1;
+    filter: brightness(50%);
+}
+
+
+
+
+/* this is the find food section */
+.eat_box{
+    width: 100vw;
+    background-image: linear-gradient(rgba(49, 49, 96, 0.5),rgba(153, 153, 236, 0.8)), url(/FOOD_IMAGES/BG_2.jpg);
+background-position: center;
+background-size: cover;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.whattoeat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.eat_box .whattoeat .um{
+margin-bottom: 2vh;
+font-size: 2rem;
+color: linear-gradient(rgba(49, 49, 96, 0.6),rgba(153, 153, 236, 0.9));
+
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+background: rgba(255, 255, 255, 0.3);
+/* width: 100%; */
+height: 3vh;
+width: 24vw;
+padding: 10px 7px;
+border-radius: 19px;
+}
+.search_bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    color: rgba(71, 78, 78,1);
+    font-size: 1rem;
+}
+.btnn{
+    background:transparent;
+    border: 0;
+}
+.btnn img{
+    height: 3.1vh;
+    width: 2vw;
+    filter: invert(100%);
+    transform: rotate(12.6deg);
+}
+.btnn{
+    border: 0;
+border-radius: 50%;
+height: 4vh;
+width: 2.3vw;
+background-color: rgba(97, 98, 151,0.9);
+background: #505a90a3;
+cursor: pointer;
+}
+
+
+.menu{
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(71, 78, 78,1);
+    
+    margin: 1vh;
+    padding: 10px 10px;
+    
+    border: 0;
+    border-radius: 10px;
+    
+    font-weight: 400;
+    
+    text-align: left;
+
+    cursor:pointer
+}
+.menu_grid{
+    margin: 2vh 2vw;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(3,1fr);
+column-gap: 1vw;
+width: 48vw;
+}
+.menu3{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.menu5{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.menu9{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.menu10{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.menu3{
+    grid-column: span 1.5;
+    text-align: center;
+}
+.menu:hover{
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+
+/* END CREDITS */
+.end{
+    background-color: black;
+    margin-top: 1px;
+    height: 23vh;
+    display:flex;
+    flex-direction:row;
+    border: 1px solid black;
+    /* background-image: url(https://wallpapercave.com/dwp2x/wp2184020.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color; */
+
+}
+.end .purpose{
+    display: flex;
+width: 59vw;
+position: relative;
+left: 5vw;
+}
+.end .purpose  img{
+    height: 22vh;
+width: 11vw;
+align-self: center;
+/* filter:invert(100%); */
+}
+.purpose .license{
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    color: green
+    
+    
+}
+.end .contact{
+    /* background-color: rgb(28, 24, 24); */
+    width: 24vw;
+    position: relative;
+    left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact ul li{
+    list-style:none;
+}
+.contact ul li img{
+    height: 5vh;
+    width: 3vw;
+    /* filter:invert(100%); */
+}
+.contact ul li img:hover{
+    filter: invert(100%);
+}
+.contact ul{
+    display: flex;
+    gap: 1vw;
+justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 5vh;
+    background-color: black;
+    color: yellow;
+    font-family: 'PT Serif', serif;
+}

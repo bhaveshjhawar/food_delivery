@@ -1,0 +1,488 @@
+@media screen and (max-width:1229px) {
+    #aboutus {
+        width: 10vw;
+    }
+
+    .nav::before {
+        opacity: 0.3;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #aboutus {
+        width: 11vw;
+    }
+
+    .nav header ul li a {
+        color: white;
+    }
+
+    .nav::before {
+        opacity: 0.5;
+    }
+
+    .intro {
+        height: 50vh;
+        bottom: -2vh;
+    }
+
+    .cards {
+        height: 55vh;
+    }
+
+    .commoncard {
+        height: 47vh;
+    }
+
+    .commoncard::before {
+        height: 47vh;
+    }
+
+    .search_bar {
+        width: 28vw;
+    }
+
+    .menu_grid {
+        width: 66vw;
+    }
+
+    .end .purpose img {
+        height: 15vh;
+        width: 10vw;
+    }
+
+}
+
+
+
+@media screen and (max-width:945px) {
+    .nav .logo img {
+        height: 13vh;
+        width: 11vw;
+    }
+
+    .button {
+        width: 31vw;
+    }
+
+    .button:hover {
+        width: 33vw;
+    }
+
+    .cards {
+        height: 58vh;
+        justify-content: space-evenly;
+
+    }
+
+    .commoncard {
+        /* margin: 0.5vh 5vw; */
+        height: 50vh;
+        width: 33vw;
+        margin: 0px;
+    }
+
+    .commoncard::before {
+
+        height: 50vh;
+        width: 33vw;
+    }
+
+    .commoncard img {
+        height: 18vh;
+    }
+
+    .search_bar {
+        width: 31vw;
+    }
+
+    .btnn {
+        width: 3.3vw;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .client {
+        height: 30vh;
+    }
+
+    .client img {
+        height: 15vh;
+        width: 23vw;
+    }
+
+    #appleimage {
+        height: 13vh;
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width:933px) {
+    #aboutus {
+        width: 13vw;
+    }
+
+    .cards {
+        height: 100vh;
+        flex-wrap: wrap;
+        /* width: 98vw; */
+    }
+
+    .commoncard {
+        height: 44vh;
+        width: 48vw;
+        margin: 0.5vh 0.1vw;
+    }
+
+    .commoncard::before {
+        height: 44vh;
+        width: 48vw;
+    }
+
+    .commoncard img {
+        height: 14vh;
+        width: 17.5vw;
+    }
+}
+
+@media screen and (max-width:849px) {
+    .button {
+        width: 37vw;
+    }
+
+    .button:hover {
+        width: 40vw;
+    }
+
+    .commoncard img {
+        height: 17vh;
+        width: 14.5vw;
+    }
+
+    .client {
+        height: 30vh;
+    }
+
+    .client img {
+        height: 15vh;
+        width: 23vw;
+    }
+
+    #appleimage {
+        height: 13vh;
+        width: 9vw;
+    }
+
+    .search_bar {
+        width: 35vw;
+    }
+
+}
+
+@media screen and (max-width:830px) {
+    #aboutus {
+        width: 14vw;
+    }
+
+    .commoncard img {
+        height: 16vh;
+        width: 14.5vw;
+    }
+
+    .client img {
+        height: 14vh;
+        width: 23vw;
+    }
+
+    .search_bar {
+        width: 38vw;
+    }
+
+    .btnn img {
+        height: 2.9vh;
+    }
+
+    .btnn {
+        height: 3vh;
+
+    }
+
+    .menu_grid {
+        width: 81vw;
+    }
+
+    .end .purpose img {
+        height: 11vh;
+        width: 12vw;
+    }
+
+    .contact ul li img {
+        height: 4vh;
+        width: 4vw;
+    }
+
+    .contact ul {
+        display: flex;
+        gap: 2vw;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    #about_us {
+        width: 15vh;
+    }
+
+    .button {
+        width: 47vw;
+    }
+
+    .button:hover {
+        width: 50vw;
+    }
+
+
+
+    /* .commoncard img{
+        height: 15vh;
+        width: 14.5vw;
+    } */
+    .menu_grid {
+        width: 90vw;
+    }
+
+    .end .purpose img {
+        height: 11vh;
+        width: 12vw;
+    }
+
+    .contact ul li img {
+        height: 4vh;
+        width: 4vw;
+    }
+
+    .contact ul {
+        display: flex;
+        gap: 2vw;
+    }
+}
+
+
+
+@media screen and (max-width:735px) {
+    .nav header ul li {
+        width: 17vw;
+    }
+
+    .nav header ul li a {
+        display: block;
+        margin: 1px -10px;
+    }
+
+    .primary_heading {
+        font-size: 3rem;
+    }
+
+    .client {
+        height: 27vh;
+    }
+
+    .client img {
+        height: 13vh;
+        width: 23vw;
+    }
+
+    #appleimage {
+        height: 11vh;
+        width: 9vw;
+    }
+}
+
+
+
+
+@media screen and (max-width:700px) {
+
+    .nav .logo img {
+        height: 11vh;
+        width: 15vw;
+    }
+
+    .menu_grid {
+        width: 95vw;
+        height: 17vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .search_bar {
+        width: 47vw;
+    }
+
+    .commoncard img {
+        height: 15vh;
+        width: 15.5vw;
+    }
+
+    .intro {
+        height: 54vh;
+        bottom: -2vh;
+        justify-content: flex-start;
+    }
+
+    .end {
+
+        height: 16vh;
+    }
+
+    .client {
+        height: 19vh;
+    }
+
+    .client img {
+        height: 10vh;
+    }
+
+    #lemeridien {
+        height: 4vh;
+        width: 20vw;
+    }
+}
+
+
+@media screen and (max-width:530px) {
+    .nav .logo img {
+        height: 10vh;
+        width: 15vw;
+    }
+
+    .search_bar {
+        width: 57vw;
+    }
+
+    .button {
+        width: 60vw;
+    }
+
+    .button:hover {
+        width: 67vw;
+    }
+
+    .commoncard img {
+        height: 13vh;
+        width: 22vw;
+    }
+
+    .btnn {
+        height: 4vh;
+        width: 5vw;
+    }
+
+    .btnn img {
+        height: 3vh;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:510px) {
+    .nav .logo img {
+        height: 10vh;
+        width: 15vw;
+    }
+
+    .intro {
+        height: 76vh;
+        bottom: -2vh;
+    }
+
+    .cards {
+        height: 100vh;
+        flex-wrap: wrap;
+        /* width: 98vw; */
+    }
+
+    .commoncard {
+        height: 44vh;
+        width: 48vw;
+        margin: 0.5vh 0.1vw;
+    }
+
+    .commoncard::before {
+        height: 44vh;
+        width: 48vw;
+    }
+
+    .search_bar {
+        width: 59vw;
+    }
+
+    .purpose .license {
+
+        font-size: 0.9rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:480px) {
+    .client img {
+        height: 12vh;
+        width: 42vw;
+    }
+
+    #appleimage {
+        height: 11vh;
+        width: 16vw;
+    }
+
+    .eat_box .whattoeat .um {
+
+        font-size: 2.8rem;
+    }
+
+    .search_bar {
+        width: 62vw;
+    }
+
+    .nav header ul li {
+
+        font-size: 1.1rem;
+        margin: 0vh 1.3vw;
+    }
+
+    .end .purpose img {
+        height: 9vh;
+        width: 14vw;
+    }
+
+    .contact ul li img {
+        height: 3vh;
+        width: 6vw;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .nav header ul {
+        height: 13vh;
+        width: 59vw;
+    }
+
+    .nav .logo img {
+        height: 8vh;
+        width: 19vw;
+    }
+
+    .center_content {
+        flex-direction: column;
+    }
+
+    #aboutus {
+        width: 24vw;
+    }
+}
